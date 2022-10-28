@@ -10,7 +10,7 @@ if __name__ == '__main__':
                          Programmer('Jackson', 'Whelan', 20, 'Web Developer', 'Eclipse'),
                          Nurse('Hunner', 'Ford', 20, 'North Suburban Medical Center', 'Anesthesiology'),
                          Nurse('Arthur', 'Morgan', 36, 'Centura St. Anthony North Hospital', 'Cardiology')]
-
+    # display list_of_occupants
     for obj in list_of_occupants:
         print(obj)
         obj.do_work()
